@@ -13,7 +13,7 @@ ls -al
 # 목록조회 자세히, 숨김파일 까지 오래된순서로 정리(rt reverse time의 약자)
 ls -alrt
 
-# 최신순은 
+# 최신순(맨위에 뜨는게 최신)
 ls -alt
 
 # 디렉토리 생성(make directory)
@@ -26,10 +26,10 @@ cd jinyoung_dir
 cd .. 또는 cd ../ 
 
 # 최상위 디렉토리인 루트디렉토리로 이동
-cd /
+cd / 
 
 # 다시 기존의 폴더로 이동
-cd home/kimjinyoung/jinyoung_dir
+cd /home/kimjinyoung/jinyoung_dir
 
 # 직전 폴더로 이동
 cd -
@@ -99,3 +99,4 @@ cp first_file.txt secomd_file.txt
 # mv 이동대상파일 이동될파일명
 mv firsr_file.txt ../first_file.txt
 mv first_file.txt second_file.txt (이름을 바꿀때만 사용하기도 함)
+
